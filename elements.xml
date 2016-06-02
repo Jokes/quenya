@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wordlist [
+	<!ELEMENT wordlist (word|prefix|suffix)*>
+	<!ELEMENT word EMPTY>
+	<!ATTLIST word full CDATA #REQUIRED>
+	<!ATTLIST word stem CDATA #IMPLIED>
+	<!ATTLIST word final CDATA #IMPLIED>
+	<!ATTLIST word short CDATA #IMPLIED>
+	<!ATTLIST word def CDATA #REQUIRED>
+	<!ATTLIST word part (adj|noun|verb|adv) #REQUIRED>
+	<!ATTLIST word root CDATA #IMPLIED>
+	<!ATTLIST word altroot CDATA #IMPLIED>
+]>
+
+<wordlist>
+	<word full="aina" def="holy"  part="adj" root="ajan" />
+	<word full="aira" def="red, copper-colored, ruddy" part="adj" root="*gajarâ" />
+	<word full="aire" def="sancitity, holiness" part="noun" root="*gaisê"/>
+	<word full="aire" stem="airi" def="holy" part="adj" root="*gaisî" />
+	<word full="aiwe" def="small bird" part="noun" root="aiwe" />
+	<word full="alasse" def="joy, merriment" part="noun" root="*galassê" />
+	<word full="alda" def="tree" part="noun" root="galadâ" />
+	<word full="alka" def="ray of light" part="noun" root="AKLA-R" />
+	<word full="alkare" short="alkar" def="glory, radiance, brilliance, splendour" part="noun" root="*aklarê" />
+	<word full="alma" def="good fortune, weal, wealth" part="noun" root="*galamê" />
+	<word full="alqua" def="swan" part="noun" root="alkwâ" />
+	<word full="alta" stem="alat" def="large, great in size" part="adj" root="*álate" />
+	<word full="alya" def="fair, good, prosperous, rich, blessed" part="adj" root="*galajâ" />
+	<word full="anar" def="sun, the Sun" part="noun" root="anâr" />
+	<word full="andúne" def="sunset, west, evening" part="noun" root="nduûnê" />
+	<word full="anga" def="iron" part="noun" root="angâ" />
+	<word full="anna" def="gift" part="noun" root="annâ" />
+	<word full="anwa" def="real, actual, true" part="adj" root="*anawâ" />
+	<prefix full="ara" def="noble" />
+	<word full="ára" def="dawn" part="noun" root="*âsâ" altroot="âðâ" />
+	<word full="áre" stem="ári" short="ar" def="day, sunlight" part="noun" root="*âsî" altroot="*âðî" />
+	<word full="arie" def="daytime" part="noun" root="*asiê" altroot="*aðiê" />
+	<word full="arin" def="morning" part="noun" root="*asina" altroot="*aðina" />
+	<word full="aure" def="sunlight, day" part="noun" />
+	<word full="ëar" def="sea" part="noun" root="ayar" />
+	<word full="ehtele" def="spring" part="noun" root="etkelê" />
+	<word full="él" def="star" part="noun" root="êl" />
+	<word full="elen" short="el" def="star" part="noun" root="*elen" />
+	<word full="elvëa" def="starlike" part="adj" />
+	<word full="er" def="one, alone" part="adj" root="ere" />
+	<word full="eresse" def="solitude" part="noun" root="*eresê" />
+	<word full="erya" def="single, sole" part="adj" root="*erejâ" />
+	<word full="esta" def="first" part="adj" root="*esetâ" />
+	<word full="falle" def="foam" part="noun" root="phallê" />
+	<word full="fanya" def="(white) cloud" part="noun" root="*spanjâ" />
+	<word full="fëa" def="spirit, soul" part="noun" root="*phaja" />
+	<word full="ferne" def="beech tree" part="noun" root="*phérenê" />
+	<word full="feren" stem="fern" def="beech, beech tree" part="noun" root="*pherêne" />
+	<word full="finde" def="hair, tress or plait of hair" part="noun" root="*phindê" />
+	<word full="formen" def="north" part="noun" root="*phormen" />
+	<word full="hala" def="(small) fish" part="noun" root="*skalâ" />
+	<word full="halla" def="tall" part="adj" />
+	<word full="handa" def="understanding, intelligent" part="adj" root="*khandâ" />
+	<word full="haran" stem="harn" def="chief" part="noun" root="*ɣarana" />
+	<word full="helwa" def="(pale) blue" part="adj" root="ɣelwâ" />
+	<word full="héra" def="chief, principal" part="adj" root="*khêrâ" />
+	<word full="heru" stem="heruv" short="hér" def="lord, master" part="noun" root="*khêrubi" />
+	<word full="híse" stem="hísi" def="mist, fog" part="noun" root="khîþi" />
+	<word full="ilma" def="starlight" part="noun" root="*gilmâ" />
+	<word full="ilsa" def="(the mystic name of) silver" part="noun" root="*gilsâ" />
+	<word full="indo" def="heart, mood, state of mind, will" part="noun" root="indô" />
+	<word full="inga" def="top, highest point" part="noun" />
+	<word full="írima" def="lovely, beautiful, desirable" part="adj" root="îrîmâ" />
+	<word full="isil" def="moon, the moon" part="noun" root="*iþil" />
+	<word full="kala" def="to shine" part="verb" root="*kalâ" />
+	<word full="kala" def="light" part="noun" root="*kalâ" />
+	<word full="kalima" def="bright" part="adj" root="*kalimâ" />
+	<word full="káne" def="valour" part="noun" root="*kânê" />
+	<word full="káno" def="commander, ruler, governor, chieftain, herald" part="noun" root="*kânô" />
+	<word full="kanya" def="bold" part="adj" root="*kanjâ" />
+	<word full="karne" stem="karni" def="scarlet, red" part="adj" root="karani" />
+	<word full="kelume" def="stream" part="noun" root="*kelumê" />
+	<word full="kirya" def="ship" part="noun" root="*kirjâ" />
+	<word full="koire" def="stirring, early spring" part="noun" />
+	<word full="kolla" def="cloak" part="noun" root="*kollâ" />
+	<word full="korma" def="ring" part="noun" root="*kormâ" />
+	<word full="kú" def="arch, crescent, bow" part="noun" root="*kuɣ" />
+	<word full="kukua" short="kua" def="dove" part="noun" root="kukûwâ" />
+	<word full="kuina" def="alive" part="adj" root="*kujnâ" />
+	<word full="kuile" def="life, being alive" part="noun" root="*kujlê" />
+	<word full="kulda" def="flame-coloured, golden-red" part="adj" root="*kuldâ" />
+	<word full="kulina" short="kulin" def="flame-coloured, golden-red" part="adj" root="*kulinâ" />
+	<word full="kúne" def="crescent, bow" part="noun" root="*kûnê" />
+	<word full="kuro" stem="curu" def="skill" part="noun" root="*kurwe" />
+	<word full="laika" def="keen, sharp, acute, piercing" part="adj" root="*laikâ" />
+	<word full="laime" def="shade" part="noun" root="*dajmê" />
+	<word full="laiqua" def="green" part="adj" root="*lajakwâ" />
+	<word full="laira" def="shady" part="adj" root="*dajrâ" />
+	<word full="laire" def="summer" part="noun" />
+	<word full="laita" def="bless, praise" part="verb" />
+	<word full="lanta" def="fall" part="noun" root="*dantâ" />
+	<word full="lára" def="flat" part="adj" root="dâlâ" altroot="lâdâ" />
+	<word full="larka" def="swift, rapid" part="adj" root="lakrâ" />
+	<word full="lasse" def="leaf" part="noun" root="lassê" />
+	<word full="laure" def="golden light" part="noun" root="*lawarê" />
+	<word full="laurëa" def="golden, like gold" part="adj" root="*lawaraja" />
+	<word full="lenka" def="slow" part="adj" />
+	<word full="léra" def="free (of persons)" part="adj" />
+	<word full="lilta" def="dance" part="verb" root="*liltâ" />
+	<word full="lin" stem="lind" def="musical sound, melody" part="noun" root="*linde" />
+	<word full="linda" def="fair, beautiful" part="adj" root="lindâ" />
+	<word full="linde" short="lin" def="tune, singing, song" part="noun" root="*lindê" />
+	<word full="linque" stem="linqui" def="wet" part="adj" root="*linkwî" />
+	<word full="linya" def="pool" part="noun" root="*linjâ" />
+	<word full="lir" def="chant, sing" part="verb" root="*glir" />
+	<word full="líre" stem="líri" def="song" part="noun" root="*gliri" />
+	<word full="liske" def="reed, sedge" part="noun" />
+	<word full="lisse" def="sweet" part="adj" root="*lissê" />
+	<word full="lóme" def="dusk, twilight, night" part="noun" root="*doɣmê" />
+	<word full="lóre" def="sleep, dream" part="noun" root="*losê" />
+	<word full="losse" def="(white) blossom" part="noun" root="loþsê" />
+	<word full="losse" stem="lossi" def="snow-white" part="adj" root="loþî" />
+	<word full="luine" stem="luini" short="luin" def="blue" part="adj" root="*lujni" />
+	<word full="maika" def="sharp, piercing" part="adj" root="*maikâ" />
+	<word full="maika" def="blade" part="noun" root="*maikâ" />
+	<word full="maxa" def="pliant, soft" part="adj" root="masagâ" />
+	<word full="malda" def="yellow, golden (color)" part="adj" root="*smaldâ" />
+	<word full="malina" short="malin" def="yellow, golden (color)" part="adj" root="smalinâ" />
+	<word full="malta" def="gold" part="noun" root="*smaltâ" />
+	<word full="malwa" def="fallow, pale" part="adj" root="smalwâ" />
+	<word full="mána" def="blessed" part="adj" root="*mânâ" />
+	<word full="mane" def="good (in a moral sense)" part="adj" root="*manê" />
+	<word full="mára" def="useful, fit, good (of things)" part="adj" root="magrâ" />
+	<word full="maril" def="glass, crystal" part="noun" />
+	<word full="marta" def="fated" part="adj" root="*mbaratâ" />
+	<word full="marya" def="pale, fallow, fawn" part="adj" root="*madjâ" />
+	<word full="melda" def="beloved, dear, sweet" part="adj" root="*melnâ" />
+	<word full="melima" def="lovable, fair" part="adj" root="*melimâ" />
+	<word full="merya" def="festive" part="adj" root="*mberjâ" />
+	<word full="minya" def="first" part="adj" root="*minijâ" />
+	<word full="míre" stem="miri" short="mir" def="jewel" part="noun" root="*mîri" />
+	<word full="miste" def="fine rain" part="noun" root="mizdê" />
+	<word full="more" stem="mori" def="black, dark, darkness" part="adj" root="*mori" />
+	<word full="morna" def="dark, black, gloomy, somber" part="adj" root="*mornâ" />
+	<word full="nande" def="harp" part="noun" root="*ñgandê" />
+	<word full="narwa" def="fiery red, ruddy, red of hair" part="adj" root="narwâ" />
+	<word full="nelle" def="brook" part="noun" root="nenle" />
+	<word full="nén" stem="nen" def="water" part="noun" root="*nen" />
+	<word full="nenda" def="wet" part="adj" root="nendâ" />
+	<word full="nende" def="pool, lake" part="noun" root="*nendê" />
+	<word full="nér" stem="ner" def="man (adult male)" part="noun" root="nere" />
+	<word full="nessa" def="young" part="adj" root="neþrâ" />
+	<word full="nése" def="youth" part="noun" root="*nêþê" />
+	<word full="nesse" def="youth" part="noun" root="*nêþrê" />
+	<word full="ní" def="woman" part="noun" root="*nihî" />
+	<word full="nís" stem="niss" def="woman" part="noun" root="*nis" />
+	<word full="nisse" short="nís" def="woman" part="noun" root="*nissê" />
+	<word full="nilda" def="friendly, loving" part="adj" root="*nilnâ" />
+	<word full="ninde" stem="nindi" def="slender" part="adj" root="*nindi" />
+	<word full="ninque" stem="ninqui" def="white, chill, cold, pallid" part="adj" root="ninkwi" />
+	<word full="nique" def="snow" part="noun" root="*nikwe" />
+	<word full="nóla" stem="ñolâ" def="wise, learned" part="adj" root="*ñgôlâ" />
+	<word full="nóle" stem="ñole" def="long study, lore, knowledge" part="noun" root="*ñgôlê" />
+	<word full="nolwe" stem="ñolwe" def="wisdom, secret lore" part="noun" root="*ñgolwê" />
+	<word full="norno" def="oak" part="noun" root="*doronô" />
+	<word full="nulda" def="secret" part="adj" root="ndulnâ" />
+	<word full="núme" def="west, occident" part="noun" root="*ndûmê" />
+	<word full="nyelle" def="bell" part="noun" root="*njelsê" />
+	<word full="nyére" def="grief, sorrow" part="noun" />
+	<word full="oira" def="eternal" part="adj" root="*ojrâ" />
+	<word full="olva" def="branch" part="noun" root="golobâ" />
+	<word full="orne" stem="orni" def="tree (slender)" part="noun" root="orni" />
+	<word full="oron" stem="oront" def="mountain" part="noun" root="*oronte" />
+	<word full="pasta" def="smooth" part="adj" root="*paþatâ" />
+	<word full="passa" def="smooth, glabrous" part="adj" root="*paþsâ" />
+	<word full="per" def="half" part="adj" root="*pere" />
+	<word full="perta" def="half" part="adj" root="*peretâ" />
+	<word full="quinga" def="bow (weapon)" part="noun" root="kwingâ" />
+	<word full="ráma" def="wing" part="noun" root="râmâ" />
+	<word full="ráne" def="straying, wandering" part="noun" root="*rânê"/>
+	<word full="ránëa" def="errant" part="adj" root="*rânayâ" />	
+	<word full="ré" def="day (full 24-hour cycle)" part="noun" root="*raê" />
+	<word full="ríe" def="crown" part="noun" root="rîgê" />
+	<word full="riende" short="rie" def="garland" part="noun" root="*riendê" />
+	<word full="riel" stem="riell" def="garlanded maiden" part="noun" root="*rienlê" />
+	<word full="rielle" short="riel" def="garlanded maiden" part="noun" root="*rienlê" />
+	<word full="rilya" def="glittering, brilliance" part="adj" root="*riljâ" />
+	<word full="ringe" def="cold" part="adj" root="*ringi"/>
+	<word full="ringwe" def="cold pool or lake (in mountains)" part="noun" root="ringiwê"/>
+	<word full="rosse " def="fine rain, dew" part="noun" root="rossê" />
+	<word full="sanda" def="firm, true, abiding" part="adj" root="*standâ"/>
+	<word full="sára" def="bitter" part="adj" root="sagrâ" />
+	<word full="sara" def="stiff dry grass, bent (open grass-covered place)" part="adj" root="*starâ" />
+	<word full="sére" def="rest, respose, peace" part="noun" root="sêdê"/>
+	<word full="síma" def="mind, imagination" part="noun" />
+	<word full="silma" def="silver, shining white, crystal-white" part="adj" root="*silmâ" />
+	<word full="silme" def="starlight, light of Telperion, silver (poetic)" part="noun" root="silmê" />
+	<word full="sinda" def="grey, grey-elven" part="adj" root="*thindâ"/>
+	<word full="sinde" stem="sindi" def="grey, pale or silvery grey" part="adj" root="thindi" />
+	<word full="sinye" def="evening" part="noun" root="*thinjê"/>
+	<word full="síre" short="sír" def="river" part="noun" root="*sîrê" />
+	<word full="súle" def="breath, wind" part="noun" root="*thuli" />
+	<word full="súre" def="wind" part="noun" root="suri" />
+	<word full="tára" def="lofty, high" part="adj" root="târâ" />
+	<word full="tarya" def="tough, stiff" part="adj" root="*taragâ" />
+	<word full="taule" def="greet tree" part="noun" />
+	<word full="taura" def="mighty, masterful" part="adj" root="taurâ" />
+	<word full="taure" def="great wood, forest" part="noun" root="tawarê" />
+	<word full="telda" def="last, final" part="adj" />
+	<word full="telume" def="dome, roof, canopy, firmament" part="noun" root="*telumê" />
+	<word full="terene" short="teren" def="slender" part="adj" root="terênê" />
+	<word full="tinda" def="glinting, silver" part="adj" root="*tindâ" />
+	<word full="tinwe" def="spark, star" part="noun" root="tinmê" />
+	<word full="tuile" def="spring, spring-time; dayspring, early morning" part="noun" root="tujulê" />
+	<word full="tulka" def="firm, strong, immovable, steadfast" part="adj" root="*tulukâ" />
+	<word full="turo" stem="turu" short="tur" part="noun" def="lord, master, victor" root="tûrô" />
+	<suffix full="tur" def="lord, king" />
+	<suffix full="ntur" def="lord, king" />
+	<word full="túre" def="mastery, victory, might, power" part="noun" root="tûrê" />
+	<word full="urus" stem="urust" def="copper" part="noun" />
+	<word full="urustina" short="urustin" def="coppery, copper-colored" part="adj" />
+	<word full="úr" def="fire" part="noun" root="*ûr" />
+	<word full="úruva" def="fiery" part="adj" root="*ûruwâ" />
+	<word full="úruite" def="fiery" part="adj" root="*ûruiti" />
+	<word full="urya" def="blaze" part="verb" root="*urjâ" />
+	<word full="vaima" final="waima" def="wrap, robe" part="noun" root="*wayamâ" />
+	<word full="vanima" def="beautiful, fair" part="adj" root="*banimâ" />
+	<word full="vanwa" final="wanwa" def="gone, lost, departed, past, dead, over" part="adj" root="*wanwâ" />
+	<word full="vanya" def="fair, beautiful (due to lack of fault or blemish)" part="adj" root="banjâ" />
+	<word full="varne" stem="varni" def="brown, swart, dark brown" part="adj" root="*barani" />
+	<word full="verka" def="wild" part="adj" root="berekâ" />
+	<word full="verya" def="bold" part="adj" root="*berjâ" />
+	<word full="verya" def="dare" part="verb" root="berjâ" />
+	<word full="vilya" final="wilya" def="air, sky" part="noun" root="*wiljâ" />
+	<word full="vinya" final="winya" def="new, fresh, young" part="adj" root="*winjâ" />
+	<word full="vista" final="wista" def="air (as a substance)" part="noun" root="*wistâ" />
+	<word full="vorima" def="continual, repeated" part="adj" root="*borimâ" />
+	<word full="vórima" def="steadfast in allegiance, in keeping oath or promise, faithful" part="adj" root="*bôrimâ" />
+	<word full="voro" short="vor" def="ever, continually" part="adv" root="*borô" />
+	<word full="voronwa" def="enduring, long-lasting" part="adj" root="*boronwâ" />
+	<word full="voronwe" def="steadfastness, loyalty, faithfulness" part="noun" root="boronwê" />
+	<suffix full="e" def="feminine suffix, sometimes agental; counterpart of -o" />
+	<suffix full="i" def="feminine suffix, sometimes agental; counterpart of -u" />
+	<suffix full="ie" def="feminine suffix" />
+	<suffix full="iel" def="daughter" />	
+	<suffix full="indo" def="masculine agental suffix, counterpart of -inde and -isse" />
+	<suffix full="inde" def	="feminine agental suffix; counterpart of -indo" />
+	<suffix full="ion" def="-son" />
+	<suffix full="isse" def="feminine agental suffix; counterpart of -indo" />
+	<suffix full="mo" def="masculine suffix; sometimes agentive; counterpart of -me" />
+	<suffix full="me" def="feminine suffix; sometimes agentive; counterpart of -mo" />
+	<suffix full="no" def="masculine suffix; sometimes agentive" note="'do' after l and n"/>
+	<suffix full="o" def="masculine suffix; sometimes agentive; counterpart of -e" />
+	<suffix full="on" def="ending (of male names)" />
+	<suffix full="u" def="masculine suffix; sometimes adgentive; counterpart of -i" />
+	<suffix full="we" def="person; frequently masculine" />
+	<suffix full="r" def="agentive suffix" />
+	<suffix full="ro" def="masculine agentive suffix" />
+	<suffix full="re" def="feminine suffix, sometimes agentive" />
+	<suffix full="lle" def="diminutive" />
+	<prefix full="ala" def="non, un-" />
+	<prefix full="am" def="up" />
+	<prefix full="apa" def="after" />
+	<prefix full="ata" def="back, again, re-" note="instead ep- when the preceding word begins with a vowel" />
+	<prefix full="au" def="from, away; point of view of source" />
+	<prefix full="at" def="back, again, re-" />
+	<prefix full="ava" def="forbidden or dangerous; not to be X" />
+	<prefix full="en" def="re-" />
+	<prefix full="et" def="out" />
+	<prefix full="hó" def="away, from, from among; point of view of destination" />
+	<prefix full="il" def="un-; reversal more than mere negation" />
+	<prefix full="kan" def="quad-" />
+	<prefix full="lin" def="many" />
+	<prefix full="nel" def="tri-" />
+	<prefix full="nu" def="under" />
+	<prefix full="nun" def="under, below" />
+	<prefix full="o" def="meeting, junction, or union" />
+	<prefix full="oa" def="away" />
+	<prefix full="oar" def="away" />
+	<prefix full="ter" def="through" />
+	<prefix full="ú" def="no-, not-, un-" />
+	<prefix full="un" def="down" />
+	<prefix full="undu" def="down" />
+	<prefix full="yo" def="with" />
+</wordlist>
